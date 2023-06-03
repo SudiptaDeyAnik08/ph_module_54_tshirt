@@ -1,9 +1,10 @@
 import React from 'react'
 
-function Brother() {
+function Brother({house}) {
   return (
     <div>
         <h4>Brother</h4>
+        <p><small>house:{house}</small></p>
     </div>
   )
 }
